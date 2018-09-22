@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1_tom"
+            android:layout_width="fill_parent"
+            android:paddingTop="20dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/current_date_tom"
+                android:fontFamily="@font/titilliumwebextralight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="17dp"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/current_temp_en_tom"
+                android:fontFamily="@font/titilliumwebextralight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/current_date_tom"
+                android:layout_marginBottom="21dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="20dp"
+                android:paddingTop="5dp"
+                android:textColor="@android:color/white"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dayandnight_tom"
+                android:fontFamily="@font/titilliumwebextralight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/current_temp_en_tom"
+                android:layout_marginBottom="21dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="20dp"
+                android:paddingTop="5dp"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView_tom"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="13dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2_tom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relativeLayout1_tom"
+            android:paddingTop="30dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/current_details_tom"
+                android:fontFamily="@font/titilliumwebextralight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/current_details"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Humidity_tom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/titilliumwebextralight"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/current_details_tom"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/humidity"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/wind_tom"
+                android:fontFamily="@font/titilliumwebextralight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Humidity_tom"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/wind"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/Humidityvalue_tom"
+                android:fontFamily="@font/titilliumwebregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/Humidity_tom"
+                android:layout_marginStart="150dp"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/windstatus1_tom"
+                android:fontFamily="@font/titilliumwebregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/wind_tom"
+                android:layout_marginStart="150dp"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
+

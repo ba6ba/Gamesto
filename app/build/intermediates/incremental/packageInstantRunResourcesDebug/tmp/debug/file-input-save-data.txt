@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Thu Jun 21 18:03:13 PKT 2018
+1.base=/home/sarwan/AndroidStudioProjects/app/build/intermediates/assets/debug
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=fonts/titilliumwebregular.ttf
+0.set=ASSET
+0.base=/home/sarwan/AndroidStudioProjects/app/build/intermediates/assets/debug
+1.path=fonts/titilliumwebextralight.ttf

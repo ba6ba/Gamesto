@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="tab_text_1">TODAY</string>
+    <string name="tab_text_2">TOMORROW</string>
+    <string name="tab_text_3">5 DAYS</string>
+    <string name="action_settings">Settings</string>
+    <string name="humidity">Humidity</string>
+    <string name="dewpoint">Dew Point</string>
+    <string name="uv">UV Index</string>
+    <string name="visiblity">Visibility</string>
+    <string name="current_details">Current Details</string>
+    <string name="wind">Wind and Pressure</string>
+    <string name="sunrise">Sunrise and Sunset</string>
+</resources>
